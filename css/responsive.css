@@ -1,0 +1,65 @@
+@media (max-width: 1200px) {
+  body {
+    overflow: auto;
+  }
+
+  .dashboard-shell {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .kpi-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-grid,
+  .drilldown-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .left-rail,
+  .main-rail {
+    grid-template-rows: none;
+  }
+
+  .panel {
+    min-height: 320px;
+  }
+
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+
+  .search-control {
+    order: 4;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .dashboard-shell {
+    padding: 14px;
+  }
+
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .kpi-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-bar > * {
+    width: 100%;
+  }
+
+  .select-control select {
+    flex: 1;
+  }
+
+  .kpi-value {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,4 @@
+export const DATA_PATH='data/Copy of Digitalization_SPRINT_1_ideas.xlsx';
+export const SHEET_NAME='Full_Data';
+export const FIELD_ALIASES={topic:['Topic','Idea','Idea Topic','Title'],owner:['Owner','Lead','Idea Owner','Team Lead'],team:['Team','Function','Department'],status:['Status','Current Status'],ideaType:['Idea Type','Type','Category'],technology:['Technology','Tech','Technologies'],remarks:['Remarks','Comments','Description'],completion:['Completion','Completion %','% Completion'],estimatedValue:['Estimated Value','Value','Estimated Value (€)','Euro Value'],readiness:['Readiness','Technical Readiness'],customerInterest:['Customer Interest','Interest'],pmte:['PMTE','PMTE Area']};
+export const STATUS_COLORS={'POC Completed':'#f7f7f7','Completed':'#f7f7f7','WIP':'#9aa0a6','Work In Progress':'#9aa0a6','Hold':'#fdd663','Not Started':'#5f6368'};
